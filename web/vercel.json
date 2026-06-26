@@ -1,0 +1,42 @@
+{
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "description": "Supabase project URL"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "description": "Supabase anonymous key"
+    },
+    {
+      "key": "SUPABASE_SERVICE_ROLE_KEY",
+      "description": "Supabase service role key"
+    },
+    {
+      "key": "NEXT_PUBLIC_GOOGLE_CLIENT_ID",
+      "description": "Google OAuth Client ID"
+    },
+    {
+      "key": "GOOGLE_CLIENT_SECRET",
+      "description": "Google OAuth Client Secret"
+    },
+    {
+      "key": "NEXT_PUBLIC_GOOGLE_AUTH_REDIRECT_URI",
+      "description": "Google OAuth Redirect URI"
+    },
+    {
+      "key": "NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID",
+      "description": "Google Drive OAuth Client ID"
+    },
+    {
+      "key": "NEXT_PUBLIC_GOOGLE_DRIVE_SCOPES",
+      "description": "Google Drive OAuth scopes"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "framework": "nextjs",
+  "regions": [
+    "iad1"
+  ]
+}
